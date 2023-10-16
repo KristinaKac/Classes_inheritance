@@ -6,10 +6,4 @@ export class Bowerman extends Character {
     this.attack = 25;
     this.defence = 25;
   }
-
-  checkType() {
-    if (this.type !== 'Bowerman') {
-      throw new Error('Должен быть тип: Bowerman');
-    }
-  }
 }

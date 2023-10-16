@@ -6,10 +6,4 @@ export class Daemon extends Character {
     this.attack = 10;
     this.defence = 40;
   }
-
-  checkType() {
-    if (this.type !== 'Daemon') {
-      throw new Error('Должен быть тип: Daemon');
-    }
-  }
 }

@@ -6,10 +6,4 @@ export class Magician extends Character {
     this.attack = 10;
     this.defence = 40;
   }
-
-  checkType() {
-    if (this.type !== 'Magician') {
-      throw new Error('Должен быть тип: Magician');
-    }
-  }
 }

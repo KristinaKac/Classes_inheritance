@@ -6,10 +6,4 @@ export class Zombie extends Character {
     this.attack = 40;
     this.defence = 10;
   }
-
-  checkType() {
-    if (this.type !== 'Zombie') {
-      throw new Error('Должен быть тип: Zombie');
-    }
-  }
 }

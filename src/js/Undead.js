@@ -6,10 +6,4 @@ export class Undead extends Character {
     this.attack = 25;
     this.defence = 25;
   }
-
-  checkType() {
-    if (this.type !== 'Undead') {
-      throw new Error('Должен быть тип: Undead');
-    }
-  }
 }
